@@ -1,11 +1,12 @@
 ﻿-- French localization file for frFR.
+-- Thanks to: Elv, Alex586,...
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local L = AceLocale:NewLocale("ElvUI", "frFR");
 if not L then return; end
 
 --Static Popup
 do
-	L["One or more of the changes you have made require a ReloadUI."] = true;
+	L["One or more of the changes you have made require a ReloadUI."] = Une ou plusieurs modifications que vous avez effectuées necessitent un ReloadUi.;
 end
 
 --General
