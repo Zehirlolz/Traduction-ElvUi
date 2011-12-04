@@ -1,12 +1,12 @@
 ﻿-- French localization file for frFR.
--- Thanks to: Elv, Alex586,...
+-- Thanks to: Elv, Zora,...
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local L = AceLocale:NewLocale("ElvUI", "frFR");
 if not L then return; end
 
 --Static Popup
 do
-	L["One or more of the changes you have made require a ReloadUI."] = Une ou plusieurs modifications que vous avez effectuées necessitent un ReloadUi.;
+	L["One or more of the changes you have made require a ReloadUI."] = "Une ou plusieurs modifications que vous avez effectuées necessitent un ReloadUi.";
 end
 
 --General
@@ -574,8 +574,8 @@ end
 
 --Chat
 do
-	L["Chat"] = true;
-	L['Invalid Target'] = true;
+	L["Chat"] = "Chat";
+	L['Invalid Target'] = "Cible Invalide";
 end
 
 --Skins
