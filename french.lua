@@ -213,17 +213,17 @@ do
 	L['KEY_MOUSEWHEELDOWN'] = 'MwD';
 	
 	--KEYBINDING
-	L["Hover your mouse over any actionbutton or spellbook button to bind it. Press the escape key or right click to clear the current actionbutton's keybinding."] = true;
-	L['Save'] = true;
-	L['Discard'] = true;
-	L['Binds Saved'] = true;
-	L['Binds Discarded'] = true;
-	L["All keybindings cleared for |cff00ff00%s|r."] = true;
-	L[" |cff00ff00bound to |r"] = true;
-	L["No bindings set."] = true;
-	L["Binding"] = true;
-	L["Key"] = true;	
-	L['Trigger'] = true;
+	L["Hover your mouse over any actionbutton or spellbook button to bind it. Press the escape key or right click to clear the current actionbutton's keybinding."] = "Passez votre souris sur n'importe quel bouton d'action ou bouton du grimoire pour lui attribuer un raccourcis. Appuyez sur la touche Echap ou le clic droit pour effacer le raccourcis en cours.";
+	L['Save'] = "Sauvegarder";
+	L['Discard'] = "Annuler";
+	L['Binds Saved'] = "Raccourcis sauvegardés";
+	L['Binds Discarded'] = "Raccourcis annulés";
+	L["All keybindings cleared for |cff00ff00%s|r."] = "Tous les raccourcis ont été effacés pour |cff00ff00%s|r.";
+	L[" |cff00ff00bound to |r"] = " |cff00ff00bound à |r"; -- A vérifier IG pour la signification
+	L["No bindings set."] = "Aucune assignation";
+	L["Binding"] = "Raccourcis";
+	L["Key"] = "Touche";	
+	L['Trigger'] = "Déclencher"; -- A vérifier IG pour la signification
 	
 	--CONFIG
 	L["ActionBars"] = true;
