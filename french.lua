@@ -637,9 +637,9 @@ end
 do
 	L['Experience'] = "Expérience";
 	L['Bars'] = "Barres";
-	L['XP:'] = "XP";
-	L['Remaining:'] = "Restant";
-	L['Rested:'] = "Reposé";
+	L['XP:'] = "XP:";
+	L['Remaining:'] = "Restant:";
+	L['Rested:'] = "Reposé:";
 	
 	L['Empty Slot'] = "Emplacement libre";
 	L['Fishy Loot'] = "Emplacement pêche";
@@ -650,18 +650,18 @@ end
 
 --Bags
 do
-	L['Click to search..'] = true;
-	L['Sort Bags'] = true;
-	L['Stack Items'] = true;
-	L['Vender Grays'] = true;
-	L['Toggle Bags'] = true;
-	L['You must be at a vender.'] = true;
-	L['Vendered gray items for:'] = true;
-	L['No gray items to sell.'] = true;
-	L['Hold Shift:'] = true;
-	L['Stack Special'] = true;
-	L['Sort Special'] = true;
-	L['Purchase'] = true;
-	L["Can't buy anymore slots!"] = true;
-	L['You must purchase a bank slot first!'] = true;
+	L['Click to search..'] = "Cliquez pour cherche...";
+	L['Sort Bags'] = "Trier les sacs";
+	L['Stack Items'] = "Empiler les objets";
+	L['Vender Grays'] = "Vendre les objets gris";
+	L['Toggle Bags'] = "Afficher les sacs";
+	L['You must be at a vender.'] = "Vous devez être à un marchand.";
+	L['Vendered gray items for:'] = "Objets gris vendus pour";
+	L['No gray items to sell.'] = "Aucun objet gris à vendre";
+	L['Hold Shift:'] = "Maintenir MAJ:";
+	L['Stack Special'] = "Empilement Spécial";
+	L['Sort Special'] = "Triage Spécial"
+	L['Purchase'] = "Acheter";
+	L["Can't buy anymore slots!"] = "Impossible d'acheter plus emplacements !";
+	L['You must purchase a bank slot first!'] = "Vous devez d'abord acheter un emplacement de banque !";
 end
