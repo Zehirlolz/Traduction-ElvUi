@@ -650,7 +650,7 @@ end
 
 --Bags
 do
-	L['Click to search..'] = "Cliquez pour cherche...";
+	L['Click to search..'] = "Cliquez pour chercher...";
 	L['Sort Bags'] = "Trier les sacs";
 	L['Stack Items'] = "Empiler les objets";
 	L['Vender Grays'] = "Vendre les objets gris";
