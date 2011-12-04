@@ -635,17 +635,17 @@ end
 
 --Misc
 do
-	L['Experience'] = true;
-	L['Bars'] = true;
-	L['XP:'] = true;
-	L['Remaining:'] = true;
-	L['Rested:'] = true;
+	L['Experience'] = "Expérience";
+	L['Bars'] = "Barres";
+	L['XP:'] = "XP";
+	L['Remaining:'] = "Restant";
+	L['Rested:'] = "Reposé";
 	
-	L['Empty Slot'] = true;
-	L['Fishy Loot'] = true;
-	L["Can't Roll"] = true;
-	L['Disband Group'] = true;
-	L['Raid Menu'] = true;
+	L['Empty Slot'] = "Emplacement libre";
+	L['Fishy Loot'] = "Emplacement pêche";
+	L["Can't Roll"] = "Ne peut pas jeter les dés";
+	L['Disband Group'] = "Dissoudre le groupe";
+	L['Raid Menu'] = "Menu Raid";
 end
 
 --Bags
