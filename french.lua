@@ -15,21 +15,21 @@ do
 	L["Enable"] = true;
 
 	L["General"] = true;
-	L["ELVUI_DESC"] = "ElvUI is a complete User Interface replacement addon for World of Warcraft.";
+	L["ELVUI_DESC"] = "ElvUI est une interface de remplacement complète pour World of Warcraft";
 	L["Auto Scale"] = true;
-		L["Automatically scale the User Interface based on your screen resolution"] = true;
+		L["Automatically scale the User Interface based on your screen resolution"] = "Redimensionne automatiquement l'Interface Utilisateur en fonction de votre résolution d'écran.";
 	L["Scale"] = true;
-		L["Controls the scaling of the entire User Interface"] = true;
-	L["None"] = true;
-	L["You don't have permission to mark targets."] = true;
-	L['LOGIN_MSG'] = 'Welcome to %sElvUI|r version %s%s|r, type /ec to access the in-game configuration menu. If you are in need of technical support you can visit us at http://www.tukui.org/forums/forum.php?id=84';
-	L['Login Message'] = true;
+		L["Controls the scaling of the entire User Interface"] = "Contrôle l'échelle de l'ensemble de l'Interface Utilisateur";
+	L["None"] = "Aucun";
+	L["You don't have permission to mark targets."] = "Vous n'avez pas la permission de marquer les cibles";
+	L['LOGIN_MSG'] = 'Bienvenue sur %sElvUI|r version %s%s|r, tapez /ec afin d\'acceder au menu de configuration en jeu. Si vous avez besoin d\'un support technique, vous pouvez nous rejoindre sur http://www.tukui.org/forums/forum.php?id=84';
+	L['Login Message'] = "Message de connexion";
 	
 	L["Reset Anchors"] = true;
-	L["Reset all frames to their original positions."] = true;
+	L["Reset all frames to their original positions."] = "Réinitialiser les cadres à leur position initiale.";
 	
 	L['Install'] = true;
-	L['Run the installation process.'] = true;
+	L['Run the installation process.'] = "Démarrer le processus d\'installation";
 	
 	L["Credits"] = true;
 	L['ELVUI_CREDITS'] = "I would like to give out a special shout out to the following people for helping me maintain this addon with testing and coding and people who also have helped me through donations. Please note for donations I'm only posting the names of people who PM'd me on the forums, if your name is missing and you wish to have your name added please PM me."
@@ -38,7 +38,7 @@ do
 	L['Donations:'] = true;
 	
 	--Installation
-	L["Welcome to ElvUI version %s!"] = true;
+	L["Welcome to ElvUI version %s!"] = "Bienvenue sur ElvUI version %s !";
 	L["This install process will help you learn some of the features in ElvUI has to offer and also prepare your user interface for usage."] = true;
 	L["The in-game configuration menu can be accesses by typing the /ec command or by clicking the 'C' button on the minimap. Press the button below if you wish to skip the installation process."] = true;
 	L["Please press the continue button to go onto the next step."] = true;
@@ -219,7 +219,7 @@ do
 	L['Binds Saved'] = "Raccourcis sauvegardés";
 	L['Binds Discarded'] = "Raccourcis annulés";
 	L["All keybindings cleared for |cff00ff00%s|r."] = "Tous les raccourcis ont été effacés pour |cff00ff00%s|r.";
-	L[" |cff00ff00bound to |r"] = " |cff00ff00bound à |r"; -- A vérifier IG pour la signification
+	L[" |cff00ff00bound to |r"] = " |cff00ff00assigné à |r"; -- A vérifier IG pour la signification
 	L["No bindings set."] = "Aucune assignation";
 	L["Binding"] = "Raccourcis";
 	L["Key"] = "Touche";	
