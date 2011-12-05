@@ -1,4 +1,4 @@
-?-- French localization file for frFR.
+-- French localization file for frFR.
 -- Thanks to: Elv, Zora, Zehir
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local L = AceLocale:NewLocale("ElvUI", "frFR");
