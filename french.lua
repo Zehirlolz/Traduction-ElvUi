@@ -1,4 +1,4 @@
-﻿-- French localization file for frFR.
+?-- French localization file for frFR.
 -- Thanks to: Elv, Zora, Zehir
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local L = AceLocale:NewLocale("ElvUI", "frFR");
@@ -32,55 +32,55 @@ do
 	L['Run the installation process.'] = "Démarrer le processus d\'installation";
 	
 	L["Credits"] = "Crédits";
-	L['ELVUI_CREDITS'] = "Je voudrais donner remercier tout spécialement les personnes pour m\’avoir aidé à maintenance cet addon avec les codeurs, testeurs et les personnes qui m\’ont aussi aidé via les dons. Veuillez noter que pour le don je n\’affiche seulement les noms des personnes qui m\’ont envoyés un message privée sur le forum. Si votre nom est absent et que vous désirez que j\’ajoute votre nom, merci de m\’envoyer un message privée."
+	L['ELVUI_CREDITS'] = "Je voudrais donner remercier tout spécialement les personnes pour m\’avoir aidé à maintenance cet addon avec les codeurs, testeurs et les personnes qui m\’ont aussi aidé via les dons. Veuillez noter que pour le don je n\’affiche seulement les noms des personnes qui m\’ont envoyés un message privée sur le forum. Si votre nom est absent et que vous désirez que j\’ajoute votre nom, merci de m\’envoyer un message privé."
 	L['Coding:'] = "Codage:";
 	L['Testing:'] = "Testeurs:";
 	L['Donations:'] = "Donateurs";
 	
 	--Installation
 	L["Welcome to ElvUI version %s!"] = "Bienvenue sur ElvUI version %s !";
-	L["This install process will help you learn some of the features in ElvUI has to offer and also prepare your user interface for usage."] = true;
-	L["The in-game configuration menu can be accesses by typing the /ec command or by clicking the 'C' button on the minimap. Press the button below if you wish to skip the installation process."] = true;
-	L["Please press the continue button to go onto the next step."] = true;
-	L["Skip Process"] = true;
-	L["ElvUI Installation"] = true;
+	L["This install process will help you learn some of the features in ElvUI has to offer and also prepare your user interface for usage."] = "Ce programme d\'instalation vous aidera à découvrir quelques fonctions qu'ElvUI a à vous offrir et preparera également votre interface pour so utilisation.";
+	L["The in-game configuration menu can be accesses by typing the /ec command or by clicking the 'C' button on the minimap. Press the button below if you wish to skip the installation process."] = "Le menu de configuration en jeu est accessible en tapant la commande /ec ou en cliquant sur le bouton 'C' sur la Minimap. Pressez le bouton ci-dessous si vous voulez passer le processur d\'installation.";
+	L["Please press the continue button to go onto the next step."] = "Merci de cliquer sur le bouton Continuer afin de passer à l\étape suivante.";
+	L["Skip Process"] = "Passer cette étape";
+	L["ElvUI Installation"] = "Installation d\'ElvUI";
 	
 	L["CVars"] = true;
-	L["This part of the installation process sets up your World of Warcraft default options it is recommended you should do this step for everything to behave properly."] = true;
-	L["Please click the button below to setup your CVars."] = true;
-	L["Setup CVars"] = true;
+	L["This part of the installation process sets up your World of Warcraft default options it is recommended you should do this step for everything to behave properly."] = "Cette partie du processus d'instalaltion paramètrera vos options par défaut de World of Warcraft. il est recommendé d'effectuer cette étape afin que tout fonctionne normalement.";
+	L["Please click the button below to setup your CVars."] = "Merci de cliquer sur le bouton ci-dessous afin de paraméter vos CVars.";
+	L["Setup CVars"] = "Paramétrer les CVars";
 	
-	L["Importance: |cff07D400High|r"] = true;
-	L["Importance: |cffD3CF00Medium|r"] = true;
+	L["Importance: |cff07D400High|r"] = "Importance: |cff07D400Haute|r";
+	L["Importance: |cffD3CF00Medium|r"] = "Importance: |cffD3CF00Moyenne|r";
 
 	L["Chat"] = true;
-	L["This part of the installation process sets up your chat windows names, positions and colors."] = true;
+	L["This part of the installation process sets up your chat windows names, positions and colors."] = "Cette partie du processus d'installation paramètre les noms, positions et couleurs de vos fenêtres de chat.";
 	L["The chat windows function the same as Blizzard standard chat windows, you can right click the tabs and drag them around, rename, etc. Please click the button below to setup your chat windows."] = true;
-	L["Setup Chat"] = true;
-	L['AutoHide Panels'] = true;
-	L['When a chat frame does not exist, hide the panel.'] = true;
+	L["Setup Chat"] = "Paramèter le Chat";
+	L['AutoHide Panels'] = "Cacher automatiquement le panneau";
+	L['When a chat frame does not exist, hide the panel.'] = "Quand une fenêtre de chan n'éxiste pas, cacher le panneau."; -- Assez indécis sur l'utilisation du mot panneau dans les deux trads ci-dessus.
 	
-	L["Installation Complete"] = true;
-	L["You are now finished with the installation process. If you are in need technical support please visit us at www.tukui.org."] = true;
-	L["Please click the button below so you can setup variables and ReloadUI."] = true;
-	L["Finished"] = true;
-	L["CVars Set"] = true;
-	L["Chat Set"] = true;
-	L['Trade'] = true;
+	L["Installation Complete"] = "Instalation terminée";
+	L["You are now finished with the installation process. If you are in need technical support please visit us at www.tukui.org."] = "Vous avez maintenant terminé le processus d'installation. Si vous avec besoin d'un support technique, merci de vous rendre sur www.tukui.org.";
+	L["Please click the button below so you can setup variables and ReloadUI."] = "Merci de cliquer sur le bouton ci-dessous afin que vous puissiez configurer les variables et recharger l'UI.";
+	L["Finished"] = "Terminé";
+	L["CVars Set"] = "VCars parametrés";
+	L["Chat Set"] = "Chat parametré";
+	L['Trade'] = "Echange";
 	
-	L['Panels'] = true;
-	L['Announce Interrupts'] = true;
-	L['Announce when you interrupt a spell to the specified chat channel.'] = true;
-	L["Movers unlocked. Move them now and click Lock when you are done."] = true;
-	L['Lock'] = true;
-	L["This can't be right, you must of broke something! Please turn on lua errors and report the issue to Elv http://www.tukui.org/forums/forum.php?id=146"] = true;
+	L['Panels'] = "Panneaux";
+	L['Announce Interrupts'] = "Annoncer les Interruptions";
+	L['Announce when you interrupt a spell to the specified chat channel.'] = "Annonce quand vous interrompez un sort dans le canal de chat spécifié";
+	L["Movers unlocked. Move them now and click Lock when you are done."] = "Cadres dévérouillés. Déplacez les et cliquez sur Verouiller quand vous aurez terminé.";
+	L['Lock'] = "Verouiller";
+	L["This can't be right, you must of broke something! Please turn on lua errors and report the issue to Elv http://www.tukui.org/forums/forum.php?id=146"] = "Ce n'ets aps possible, vous devez avoir cassé quelque chose ! Merci d'activer l'affichage des erreurs LUA et de signaler celles-ci à Elv sur http://www.tukui.org/forums/forum.php?id=146";
 end
 
 --Media	
 do
 	L["Media"] = true;
-	L["Fonts"] = true;
-	L["Font Size"] = true;
+	L["Fonts"] = "Polices";
+	L["Font Size"] = "Taille de la police";
 		L["Set the font size for everything in UI. Note: This doesn't effect somethings that have their own seperate options (UnitFrame Font, Datatext Font, ect..)"] = true;
 	L["Default Font"] = true;
 		L["The font that the core of the UI will use."] = true;
@@ -219,7 +219,7 @@ do
 	L['Binds Saved'] = "Raccourcis sauvegardés";
 	L['Binds Discarded'] = "Raccourcis annulés";
 	L["All keybindings cleared for |cff00ff00%s|r."] = "Tous les raccourcis ont été effacés pour |cff00ff00%s|r.";
-	L[" |cff00ff00bound to |r"] = " |cff00ff00assigné à |r"; -- A vérifier IG pour la signification
+	L[" |cff00ff00bound to |r"] = " |cff00ff00assigné à |r";
 	L["No bindings set."] = "Aucune assignation";
 	L["Binding"] = "Raccourcis";
 	L["Key"] = "Touche";	
