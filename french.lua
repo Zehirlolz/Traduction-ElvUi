@@ -213,7 +213,7 @@ do
 	L['KEY_MOUSEWHEELDOWN'] = 'MwD';
 	
 	--KEYBINDING
-	L["Hover your mouse over any actionbutton or spellbook button to bind it. Press the escape key or right click to clear the current actionbutton's keybinding."] = "Passez votre souris sur n'importe quel bouton d'action ou bouton du grimoire pour lui attribuer un raccourcis. Appuyez sur la touche Echap ou le clic droit pour effacer le raccourcis en cours.";
+	L["Hover your mouse over any actionbutton or spellbook button to bind it. Press the escape key or right click to clear the current actionbutton's keybinding."] = "Passez votre souris sur n\'importe quel bouton d'action ou bouton du grimoire pour lui attribuer un raccourcis. Appuyez sur la touche Echap ou le clic droit pour effacer le raccourcis en cours.";
 	L['Save'] = "Sauvegarder";
 	L['Discard'] = "Annuler";
 	L['Binds Saved'] = "Raccourcis sauvegardés";
@@ -655,13 +655,13 @@ do
 	L['Stack Items'] = "Empiler les objets";
 	L['Vender Grays'] = "Vendre les objets gris";
 	L['Toggle Bags'] = "Afficher les sacs";
-	L['You must be at a vender.'] = "Vous devez être à un marchand.";
+	L['You must be at a vender.'] = "Vous devez être chez un marchand.";
 	L['Vendered gray items for:'] = "Objets gris vendus pour";
 	L['No gray items to sell.'] = "Aucun objet gris à vendre";
 	L['Hold Shift:'] = "Maintenir MAJ:";
 	L['Stack Special'] = "Empilement Spécial";
 	L['Sort Special'] = "Triage Spécial"
 	L['Purchase'] = "Acheter";
-	L["Can't buy anymore slots!"] = "Impossible d'acheter plus emplacements !";
+	L["Can't buy anymore slots!"] = "Impossible d\'acheter plus emplacements !";
 	L['You must purchase a bank slot first!'] = "Vous devez d'abord acheter un emplacement de banque !";
 end
