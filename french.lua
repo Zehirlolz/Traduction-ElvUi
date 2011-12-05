@@ -1,5 +1,5 @@
 ﻿-- French localization file for frFR.
--- Thanks to: Elv, Zora,...
+-- Thanks to: Elv, Zora, Zehir
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local L = AceLocale:NewLocale("ElvUI", "frFR");
 if not L then return; end
@@ -12,30 +12,30 @@ end
 --General
 do
 	L["Version"] = true;
-	L["Enable"] = true;
+	L["Enable"] = "Activer";
 
-	L["General"] = true;
+	L["General"] = "Général";
 	L["ELVUI_DESC"] = "ElvUI est une interface de remplacement complète pour World of Warcraft";
-	L["Auto Scale"] = true;
-		L["Automatically scale the User Interface based on your screen resolution"] = "Redimensionne automatiquement l'Interface Utilisateur en fonction de votre résolution d'écran.";
-	L["Scale"] = true;
+	L["Auto Scale"] = "Echelle Automatique";
+		L["Automatically scale the User Interface based on your screen resolution"] = "Redimensionne automatiquement l\'Interface Utilisateur en fonction de votre résolution d'écran.";
+	L["Scale"] = "Echelle";
 		L["Controls the scaling of the entire User Interface"] = "Contrôle l'échelle de l'ensemble de l'Interface Utilisateur";
 	L["None"] = "Aucun";
 	L["You don't have permission to mark targets."] = "Vous n'avez pas la permission de marquer les cibles";
 	L['LOGIN_MSG'] = 'Bienvenue sur %sElvUI|r version %s%s|r, tapez /ec afin d\'acceder au menu de configuration en jeu. Si vous avez besoin d\'un support technique, vous pouvez nous rejoindre sur http://www.tukui.org/forums/forum.php?id=84';
 	L['Login Message'] = "Message de connexion";
 	
-	L["Reset Anchors"] = true;
+	L["Reset Anchors"] = "Réinitialiser les ancres";
 	L["Reset all frames to their original positions."] = "Réinitialiser les cadres à leur position initiale.";
 	
-	L['Install'] = true;
+	L['Install'] = "Installer";
 	L['Run the installation process.'] = "Démarrer le processus d\'installation";
 	
-	L["Credits"] = true;
-	L['ELVUI_CREDITS'] = "I would like to give out a special shout out to the following people for helping me maintain this addon with testing and coding and people who also have helped me through donations. Please note for donations I'm only posting the names of people who PM'd me on the forums, if your name is missing and you wish to have your name added please PM me."
-	L['Coding:'] = true;
-	L['Testing:'] = true;
-	L['Donations:'] = true;
+	L["Credits"] = "Crédits";
+	L['ELVUI_CREDITS'] = "Je voudrais donner remercier tout spécialement les personnes pour m\’avoir aidé à maintenance cet addon avec les codeurs, testeurs et les personnes qui m\’ont aussi aidé via les dons. Veuillez noter que pour le don je n\’affiche seulement les noms des personnes qui m\’ont envoyés un message privée sur le forum. Si votre nom est absent et que vous désirez que j\’ajoute votre nom, merci de m\’envoyer un message privée."
+	L['Coding:'] = "Codage:";
+	L['Testing:'] = "Testeurs:";
+	L['Donations:'] = "Donateurs";
 	
 	--Installation
 	L["Welcome to ElvUI version %s!"] = "Bienvenue sur ElvUI version %s !";

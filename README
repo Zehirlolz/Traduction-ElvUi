@@ -7,4 +7,4 @@ Exemple avec:
 	L["Enable"] = true;
 	
 Remplacez "true" par votre traduction, exemple
-	L["Enable"] = Activer;	
+	L["Enable"] = "Activer";
